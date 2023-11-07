@@ -68,12 +68,11 @@ Sub stock_market_analysis():
      	  If Cells(i, 10) < 0 Then
 
       		 Cells(i, 10).Interior.ColorIndex = 3
-      		 Cells(i, 11).Interior.ColorIndex = 3
 
       	  ElseIf Cells(i, 10) >= 0 Then
 
       		 Cells(i, 10).Interior.ColorIndex = 4
-   		 Cells(i, 11).Interior.ColorIndex = 4
+   		
   	 End If
    Next i
            
